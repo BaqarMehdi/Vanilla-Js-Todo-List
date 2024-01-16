@@ -63,7 +63,9 @@ button {
 ul li {
   list-style: none;
   font-size: 17px;
-  padding: 16px 8px 12px 50px;
+  /* padding-right: 3rem; */
+  word-wrap: break-word;
+  padding: 16px 3rem 12px 50px;
   user-select: none;
   cursor: pointer;
   position: relative;

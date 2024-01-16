@@ -55,4 +55,11 @@ function showData() {
   listContainer.innerHTML = localStorage.getItem("data");
 }
 
+function handleKeyPress(event) {
+  if (event.key === 'Enter') {
+    addTask();
+  }
+}
+
+
 showData();
